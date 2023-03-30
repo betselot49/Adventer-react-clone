@@ -1,0 +1,100 @@
+.footer-container {
+    margin-top: 25px;
+    padding: 0;
+    display: block;
+  }
+  
+  .bg-footer {
+    background-image: url("../../images/footer-bg.png");
+    height: fit-content;
+    margin: 0;
+    padding-top: 350px;
+    padding-bottom: 50px;
+  }
+  
+  .text-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .subscribe-bar {
+    height: 40px;
+    width: 70%;
+    padding: 10px 10px;
+    border-right: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  
+  .subscribe-btn {
+    border-left: none;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #082f58;
+    color: white;
+    border: #082f58;
+  }
+  
+  .call-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .call-icon {
+    display: block;
+  }
+  
+  .phone {
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    transition-duration: 0.5s;
+  }
+  
+  .phone:hover {
+    color: rgb(212, 98, 11);
+  }
+  
+  .social-media {
+    margin: 2px;
+    cursor: pointer;
+  }
+  
+  .email {
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    transition-duration: 0.5s;
+  }
+  
+  .email:hover {
+    color: rgb(212, 98, 11);
+  }
+  
+  .footer {
+    background-color: #122c2d;
+    padding: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    text-align: center;
+  }
+  
